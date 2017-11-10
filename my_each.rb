@@ -14,5 +14,5 @@ def my_each(array)
 end
 
 my_each(['arel', 'jon', 'logan', 'spencer']) do |name|
-
+  puts name
 end
