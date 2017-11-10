@@ -8,11 +8,11 @@ def my_each(array)
       yield array[i]
       i = i + 1
     end
-  else  
-
+  else
+    puts "This block should not run!"
   end
-    array
 
+    array
 end
 
 # my_each(collection) do |name|
