@@ -12,6 +12,6 @@ def my_each(array)
 
 end
 
-my_each(collection) do |name|
-  puts name
-end
+# my_each(collection) do |name|
+#   puts name
+# end
