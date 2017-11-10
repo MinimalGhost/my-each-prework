@@ -15,6 +15,6 @@ def my_each(array)
     array
 end
 
-# my_each(collection) do |name|
-#   puts "Hi, #{name}!"
-# end
+my_each(collection) do |name|
+  puts "Hi, #{name}!"
+end
