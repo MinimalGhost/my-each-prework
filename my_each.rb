@@ -12,3 +12,5 @@ def my_each(array)
     puts "whatchamacalit"
   end
 end
+
+my_each(['arel', 'jon', 'logan', 'spencer'])
