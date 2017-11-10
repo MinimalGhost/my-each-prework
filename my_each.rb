@@ -14,3 +14,9 @@ def my_each(array)
 
     array
 end
+
+my_each(collection) do
+  collection.map do |name|
+    "#{name}"
+  end
+end
