@@ -1,5 +1,4 @@
 def my_each(array)
-  if block_given?
     i = 0
 
     while i < array.length
@@ -8,9 +7,7 @@ def my_each(array)
     end
 
     array
-  else
-    puts "whatchamacalit"
-  end
+
 end
 
 my_each(['arel', 'jon', 'logan', 'spencer']) do |name|
