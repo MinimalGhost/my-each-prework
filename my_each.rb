@@ -1,3 +1,5 @@
+collection = ['arel', 'jon', 'logan', 'spencer']
+
 def my_each(array)
     i = 0
 
@@ -10,6 +12,6 @@ def my_each(array)
 
 end
 
-my_each(['arel', 'jon', 'logan', 'spencer']) do |name|
+my_each() do |name|
   puts name
 end
